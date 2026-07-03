@@ -1,105 +1,94 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>7SecondSolar | Instant Clean Energy</title>
- </head>
- <body style="margin:0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:#333; background-color:#f9f9f9; line-height:1.6;">
+    <!-- Fixed link to match your filename 'styles.css' -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
     
-    <header style="background-color: #fff; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 10px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 100;">
-        <div style="font-size: 24px; font-weight: bold; color: #ff9900;">
-            7Second<span stlye="color: #2e7d32;">Solar</span>
+    <header>
+        <div class="logo">
+            7Second<span class="logo-green">Solar</span>
         </div>
         <nav>
-            <a href="#features" style="margin-left: 20px; text-decoration: none; color: #555; font-weight: 500;">Features</a>
-            <a href="#savings" style="margin-left: 20px; text-decoration: none; color: #555; font-weight: 500;">Savings</a>
-            <a href="#quote" style="margin-left: 20px; text-decoration: none; color: #fff; background-color: #2e7d32; padding: 10px 20px; border-radius: 5px; font-weight: bold;">Get a Quote</a>
+            <a href="#features">Features</a>
+            <a href="#savings">Savings</a>
+            <a href="#quote" class="btn-quote">Get a Quote</a>
         </nav>
     </header>
 
-    <section style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?q=80&w=1200') no-repeat center center/cover; padding: 100px 20px; text-align: center; color: white;"></section>
-        
-        <h1 style="font-size: 48px; margin-top: 0; margin-bottom: 20px; text-align: center;">Power Your Home in 7 Seconds</h1>
-        <p style="font-size: 20px; max-width: 600px; margin: 0 auto 30px auto; color: #222; font-weight: 600;">
-            Switch to smart, high-efficiency solar panels. Reduce your electricity bill instantly and secure your energy independence today.
-        </p>
-        <img src="AutoPV.png" alt="Solar Left Grphaic" style="display: block; width: 350px; height: auto; margin: 0 auto 30px auto;">
-        <div style="text-align: center;">
-         <a href="#quote" style="text-decoration: none; background-color: #ff9900; color: white; padding: 15px 40px; font-size: 18px; font-weight: bold; border-radius: 5px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-             Calculate Your Savings
-         </a>
+    <section class="hero">
+        <h1>Power Your Home in 7 Seconds</h1>
+        <p>Switch to smart, high-efficiency solar panels. Reduce your electricity bill instantly and secure your energy independence today.</p>
+        <img src="AutoPV.png" alt="Solar Left Graphic">
+        <div>
+            <a href="#quote" class="btn-savings">Calculate Your Savings</a>
         </div>
-
     </section>
-            
-        
 
-    <section id="features" style="padding: 80px 40px; text-align: center; background-color: #fff;">
-        <h2 style="font-size: 32px; margin-bottom: 50px; color: #222;">Why Choose 7SecondSolar?</h2>
+    <section id="features">
+        <h2>Why Choose 7SecondSolar?</h2>
 
-        <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 30px; max-width: 1200px; margin: 0 auto;">
-
-            <div style="flex: 1; min-width: 280px; padding: 25px; background: #fdfdfd; border: 1px solid #eee; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.02);">
-                <div style="font-size: 40px; margin-bottom: 15px;">⏱️</div>
-                <h3 style="color: #2e7d32; margin-bottom: 10px;">7-Second Estimator</h3>
-                <p style="color: #666; font-size: 15px;">Get a personalized solar potential and cost breakdown for your roof faster than making a cup of coffee.</p>
+        <div class="features-container">
+            <div class="feature-card">
+                <div class="feature-icon">⏱️</div>
+                <h3>7-Second Estimator</h3>
+                <p>Get a personalized solar potential and cost breakdown for your roof faster than making a cup of coffee.</p>
             </div>
 
-            <div style="flex: 1; min-width: 280px; padding: 25px; background: #fdfdfd; border: 1px solid #eee; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.02);">
-                <div style="font-size: 40px; margin-bottom: 15px;">☀️</div>
-                <h3 style="color: #2e7d32; margin-bottom: 10px;">Tier-1 Hardware</h3>
-                <p style="color: #666; font-size: 15px;">We use only ultra-high efficiency monocrystalline panels designed to maximize power generation even on cloudy days.</p>
+            <div class="feature-card">
+                <div class="feature-icon">☀️</div>
+                <h3>Tier-1 Hardware</h3>
+                <p>We use only ultra-high efficiency monocrystalline panels designed to maximize power generation even on cloudy days.</p>
             </div>
 
-            <div style="flex: 1; min-width: 280px; padding: 25px; background: #fdfdfd; border: 1px solid #eee; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.02);">
-                <div style="font-size: 40px; margin-bottom: 15px;">🔋</div>
-                <h3 style="color: #2e7d32; margin-bottom: 10px;">Zero Outages</h3>
-                <p style="color: #666; font-size: 15px;">Pair your panels with intelligent battery storage backup to keep your lights, Wi-Fi, and appliances running smoothly 24/7.</p>
+            <div class="feature-card">
+                <div class="feature-icon">🔋</div>
+                <h3>Zero Outages</h3>
+                <p>Pair your panels with intelligent battery storage backup to keep your lights, Wi-Fi, and appliances running smoothly 24/7.</p>
             </div>
         </div>
     </section>
 
-    <section id="savings" style="padding: 80px 40px; background-color: #f1f839; text-align: center;">
-        <div style="max-width: 800px; margin: 0 auto;">
-            <h2 style="font-size: 32px; color: #2e7d32; margin-bottom: 20px;">Crush Your Monthly Energy Bills</h2>
-            <p style="font-size: 18px; color: #555; margin-bottom: 40px">
-                The average homeowner saves up to <b>70%</b> on their monthly electricity costs right after activiation. With rising uitility rates, solar isn't just an option-it's an investment that pays for itself.
-            </p>
-            <hr style="border: 0; height: 1px; background: #cbdcc0; margin-bottom: 40px;">
+    <section id="savings">
+        <div class="savings-content">
+            <h2>Crush Your Monthly Energy Bills</h2>
+            <p>The average homeowner saves up to <b>70%</b> on their monthly electricity costs right after activation. With rising utility rates, solar isn't just an option—it's an investment that pays for itself.</p>
+            <hr>
         </div>
     </section>
 
-    <section id="quote" style="padding: 80px 20px; background-color: #fff; text-align: center;">
-        <div style="max-width: 500px; margin: 0 auto; padding: 40px; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); border-top: 5px solid #ff9900;">
-            <h2 style="margin-bottom: 10px; color: #222;">Get Your Free Solar Proposal</h2>
-            <p style="color: #777; margin-bottom: 30px; font-size: 14px;">Fill out the details below and our team will build your custom roof design layout.</p>
+    <section id="quote">
+        <div class="form-container">
+            <h2>Get Your Free Solar Proposal</h2>
+            <p>Fill out the details below and our team will build your custom roof design layout.</p>
 
-            <form action="#" method="POST" style="text-align: left;">
-                <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #444;">Your Name</label>
-                <input type="email" placeholder="Landon King" required style="width: 100%; padding: 12px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box; font-size: 15px;">
+            <form action="#" method="POST">
+                <label>Your Name</label>
+                <input type="text" placeholder="Landon King" required>
 
-                <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #444;">Email Address</label>
-                <input type="email" placeholder="king@example.com" required style="width: 100%; padding: 12px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box; font-size: 15px;">
+                <label>Email Address</label>
+                <input type="email" placeholder="king@example.com" required>
 
-                <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #444;">Average Monthly Electric Bill</label>
-                <select style="width: 100%; padding: 12px; margin-bottom: 25px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box; font-size: 15px; background-color: white;">
+                <label>Average Monthly Electric Bill</label>
+                <select>
                     <option>R0 - R10000</option>
                     <option>R10001 - R20000</option>
                     <option>R20001 - R30000</option>
-                    <option>$30001+</option>
+                    <option>R30001+</option>
                 </select>
 
-                <button type="submit" style="width: 100%; background-color: 2e7d32; color: white; padding: 14px; border: none; border-radius: 5px; font-size: 16px; font-weight: bold; cursor: pointer; transition: 0.2s;">
-                    Submit Quote Request
-                </button>
+                <button type="submit">Submit Quote Request</button>
             </form>
         </div>
     </section>
 
-    <footer style="background-color: #222; color: #aaa; padding: 40px 20px; text-align: center; font-size: 14px;">
-        <p style="margin-bottom: 10px;">&copy; 2026 7SecondSolar. All rights reserved.</p>
-        <p style="color: #666;">Inspirational prototype page designed for educational and promotional use.</p>
+    <footer>
+        <p>&copy; 2026 7SecondSolar. All rights reserved.</p>
+        <p class="footer-sub">Inspirational prototype page designed for educational and promotional use.</p>
     </footer>
 
 </body>

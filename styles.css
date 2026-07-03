@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff9900;
+}
+
+.logo-green {
+    color: #2e7d32;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+}
+
+nav .btn-quote {
+    color: #fff;
+    background-color: #2e7d32;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?q=80&w=1200') no-repeat center center/cover;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    color: white;
+    font-weight: 600;
+}
+
+.hero img {
+    display: block;
+    width: 350px;
+    height: auto;
+    margin: 0 auto 30px auto;
+}
+
+.btn-savings {
+    text-decoration: none;
+    background-color: #ff9900;
+    color: white;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+#features {
+    padding: 80px 40px;
+    text-align: center;
+    background-color: #fff;
+}
+
+feature h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+    color: #222;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature-card {
+    flex: 1;
+    min-width: 280px;
+    padding: 25px;
+    background: #fdfdfd;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
+}
+
+.feature-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.feature-card h3 {
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    color: #666;
+    font-size: 15px;
+}
+
+#savings {
+    padding: 80px 40px;
+    background-color: #f1f839;
+    text-align: center;
+}
+
+.savings-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#savings h2 {
+    font-size: 32px;
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+#savings p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+#savings hr {
+    border: 0;
+    height: 1px;
+    background: #cbdcc0;
+    margin-bottom: 40px;
+}
+
+#quote {
+    padding: 80px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fdfdfd;
+    padding: 40px;
+    border-radius: 10px;
+    border-top: 5px solid #ff9900;
+}
+
+#quote h2 {
+    margin-bottom: 10px;
+    color: #222;
+}
+
+#quote p {
+    color: #777;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+form {
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #444;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+form select {
+    background-color: #white;
+}
+
+form button {
+    width: 100%;
+    background-color: #2e7d32;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+footer {
+    background-color: #222;
+    color: #aaa;
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+foooter p {
+    margin-bottom: 10px;
+}
+
+.footer-sub {
+    color: #666;
+}
